@@ -1,1 +1,1 @@
-# github-accelerate
+用于github加速访问
