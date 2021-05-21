@@ -1,10 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
-#
-# Copyright © 2019 Robin Wen <blockxyz@gmail.com>
-#
-# Distributed under terms of the MIT license.
 
 import socket
 import os
@@ -24,7 +20,7 @@ def get_ip(host):
         print("Unable to get IP of Hostname")
         
 def main():
-    f = open('%s/hosts-tem' % file_path,'w')
+    f = open('%s/hosts-tmp' % file_path,'w')
     f.write("github.com\n")
     f.write("gist.github.com\n")
     f.write("assets-cdn.github.com\n")
@@ -42,6 +38,14 @@ def main():
     f.write("avatars7.githubusercontent.com\n")
     f.write("avatars8.githubusercontent.com\n")
     f.write("github.githubassets.com\n")
+    f.write("github.global.ssl.fastly.net\n")
+    f.write("documentcloud.github.com\n")
+    f.write("gist.github.com\n")
+    f.write("help.github.com\n")
+    f.write("nodeload.github.com\n")
+    f.write("codeload.github.com\n")
+    f.write("status.github.com\n")
+    f.write("training.github.com\n")
     f.close()
 
 if __name__ == "__main__":
@@ -56,7 +60,7 @@ def main():
     f.write("# GitHub Start\n")
     f.close()
 
-    with open("%s/hosts-tem" % file_path, "r") as ins:
+    with open("%s/hosts-tmp" % file_path, "r") as ins:
         for host in ins:
             ip=get_ip(host.strip())
             with open('%s/hosts' % file_path, 'a') as result:
