@@ -29,14 +29,6 @@ def main():
     f.write("cloud.githubusercontent.com\n")
     f.write("camo.githubusercontent.com\n")
     f.write("avatars0.githubusercontent.com\n")
-    f.write("avatars1.githubusercontent.com\n")
-    f.write("avatars2.githubusercontent.com\n")
-    f.write("avatars3.githubusercontent.com\n")
-    f.write("avatars4.githubusercontent.com\n")
-    f.write("avatars5.githubusercontent.com\n")
-    f.write("avatars6.githubusercontent.com\n")
-    f.write("avatars7.githubusercontent.com\n")
-    f.write("avatars8.githubusercontent.com\n")
     f.write("github.githubassets.com\n")
     f.write("github.global.ssl.fastly.net\n")
     f.write("documentcloud.github.com\n")
@@ -46,6 +38,7 @@ def main():
     f.write("codeload.github.com\n")
     f.write("status.github.com\n")
     f.write("training.github.com\n")
+    f.write("api.github.com\n")
     f.close()
 
 if __name__ == "__main__":
