@@ -45,7 +45,7 @@ def main():
     f.write("favicons.githubusercontent.com\n")
     f.write("user-images.githubusercontent.com\n")
     f.write("collector.githubapp.com\n")
-    f.write("avatars0.githubusercontent.com\n")
+    f.write("avatars.githubusercontent.com\n")
     f.write("avatars1.githubusercontent.com\n")
     f.write("avatars2.githubusercontent.com\n")
     f.write("avatars3.githubusercontent.com\n")
